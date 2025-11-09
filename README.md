@@ -1,6 +1,6 @@
 # LinkedIn Sales Navigator Reporting
 
-*Please Note: The reports, analysis, and generated modeling output differ due to [sdv](https://sdv.dev/) data anonymization providing different patterns for features and fields within the randomized output files*
+*Please Note: The reports, analysis, and generated modeling output differ from actual findings due to [sdv](https://sdv.dev/) data anonymization process re-creating the features and fields for our example output files*
 
 *I will discuss actual findings and the process for this analysis*
 
