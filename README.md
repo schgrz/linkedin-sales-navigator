@@ -125,32 +125,49 @@ Since this was initial insight, the next steps would be to gather additional dat
 
 ## How to Reproduce
 
+**Option 1: Using VS Code**
 1. Clone the repository:  
-   ```bash
+   ```
    git clone https://github.com/schgrz/linkedin-sales-navigator.git
-2. **Initialize a virtual environment** (Python 3.12 or higher)
-
-   ```bash
+   ```
+2. Open the project folder in VS Code. Make sure you have the Python and Jupyter Extensions installed. These can be found on the VS Code Extensions Marketplace.
+3. **Initialize a virtual environment** (Python 3.12 or higher)
+   ```
    python -m venv .venv
    source .venv/bin/activate # Mac/Linux
    .venv\Scripts\activate # Windows
    ```
-3. **Install dependencies**
-
-   ```bash
+4. **Install dependencies**
+   ```
    python -m pip install -r requirements.txt
    ```
-4. **Verify folder structure**
-
+5. **Verify folder structure**
    ```
    LinkedIn Sales Navigator (Working Directory)
    ├── data/                     # contains raw and processed datasets
    ├── reporting/                # contains generated reports and visual outputs
    └── 2025_Sales_Navigator_reporting.ipynb
    ```
-5. **Run the notebook**
-    1. Open `2025_Sales_Navigator_reporting.ipynb` in Jupyter Notebook or VS Code.  
+6. **Run the notebook**
+    1. Open `2025_Sales_Navigator_reporting.ipynb`.  
     2. Execute all cells to reproduce the analysis, modeling, and visualizations.
+
+**Option 2: Using Anaconda**
+1. Clone the repository:  
+   ```
+   git clone https://github.com/schgrz/linkedin-sales-navigator.git
+   ```
+2. **Launch the project**
+   1. Open Anaconda Navigator and Launch Jupyter Notebook
+   2. Navigate to the project folder
+   3. Open `2025_Sales_Navigator_reporting.ipynb`
+3. **Install dependencies**
+   ```
+   !pip install -r requirements.txt
+   ```
+4. **Run the notebook**
+
+    Execute all cells to reproduce the analysis, modeling, and visualizations.
 
 ## Contact
 - Email: alex.schwarzgrzesiak@gmail.com
